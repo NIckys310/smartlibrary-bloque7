@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1390" height="905" viewBox="0 0 1390 905">
+<title>SmartLibrary - Secuencia POST /api/prestamos</title>
+<rect width="1390" height="905" fill="#FFFFFF"/>
+<path d="M10,8 L300,8 L300,22 L290,32 L10,32 Z" fill="#F2F2F2" stroke="#5B5B5B"/>
+<text x="18.0" y="25.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000" style="font-weight:bold">sd Registrar préstamo</text>
+<rect x="10" y="8" width="1370" height="887" fill="none" stroke="#5B5B5B"/>
+<line x1="90" y1="80" x2="90" y2="865" stroke="#7F7F7F" stroke-dasharray="6,4"/>
+<circle cx="90" cy="38" r="7" fill="#FFFFC4" stroke="#A0522D"/><line x1="90" y1="45" x2="90" y2="62" stroke="#A0522D"/><line x1="79" y1="51" x2="101" y2="51" stroke="#A0522D"/><polyline points="81,74 90,62 99,74" fill="none" stroke="#A0522D"/>
+<text x="90.0" y="88.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000" style="font-weight:bold">Usuario</text>
+<line x1="280" y1="80" x2="280" y2="865" stroke="#7F7F7F" stroke-dasharray="6,4"/>
+<defs><linearGradient id="hctrl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFF4"/><stop offset="1" stop-color="#FFFFC4"/></linearGradient></defs>
+<rect x="204.6" y="43" width="156.8" height="40" fill="#000" opacity="0.12"/>
+<rect x="201.6" y="40" width="156.8" height="40" fill="url(#hctrl)" stroke="#A0522D"/>
+<text x="280.0" y="65.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000" style="font-weight:bold">:PrestamoController</text>
+<line x1="470" y1="80" x2="470" y2="865" stroke="#7F7F7F" stroke-dasharray="6,4"/>
+<defs><linearGradient id="hsvc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFF4"/><stop offset="1" stop-color="#FFFFC4"/></linearGradient></defs>
+<rect x="405.4" y="43" width="135.2" height="40" fill="#000" opacity="0.12"/>
+<rect x="402.4" y="40" width="135.2" height="40" fill="url(#hsvc)" stroke="#A0522D"/>
+<text x="470.0" y="65.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000" style="font-weight:bold">:PrestamoService</text>
+<line x1="660" y1="80" x2="660" y2="865" stroke="#7F7F7F" stroke-dasharray="6,4"/>
+<defs><linearGradient id="hrest" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFF4"/><stop offset="1" stop-color="#FFFFC4"/></linearGradient></defs>
+<rect x="577.4" y="43" width="171.20000000000002" height="40" fill="#000" opacity="0.12"/>
+<rect x="574.4" y="40" width="171.20000000000002" height="40" fill="url(#hrest)" stroke="#A0522D"/>
+<text x="660.0" y="65.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000" style="font-weight:bold">:EstudianteRepository</text>
+<line x1="850" y1="80" x2="850" y2="865" stroke="#7F7F7F" stroke-dasharray="6,4"/>
+<defs><linearGradient id="hrlib" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFF4"/><stop offset="1" stop-color="#FFFFC4"/></linearGradient></defs>
+<rect x="785.4" y="43" width="135.2" height="40" fill="#000" opacity="0.12"/>
+<rect x="782.4" y="40" width="135.2" height="40" fill="url(#hrlib)" stroke="#A0522D"/>
+<text x="850.0" y="65.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000" style="font-weight:bold">:LibroRepository</text>
+<line x1="1040" y1="80" x2="1040" y2="865" stroke="#7F7F7F" stroke-dasharray="6,4"/>
+<defs><linearGradient id="hlibro" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFF4"/><stop offset="1" stop-color="#FFFFC4"/></linearGradient></defs>
+<rect x="983.0" y="43" width="120" height="40" fill="#000" opacity="0.12"/>
+<rect x="980.0" y="40" width="120" height="40" fill="url(#hlibro)" stroke="#A0522D"/>
+<text x="1040.0" y="65.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000" style="font-weight:bold">libro : Libro</text>
+<line x1="1230" y1="80" x2="1230" y2="865" stroke="#7F7F7F" stroke-dasharray="6,4"/>
+<defs><linearGradient id="hrpre" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFF4"/><stop offset="1" stop-color="#FFFFC4"/></linearGradient></defs>
+<rect x="1154.6" y="43" width="156.8" height="40" fill="#000" opacity="0.12"/>
+<rect x="1151.6" y="40" width="156.8" height="40" fill="url(#hrpre)" stroke="#A0522D"/>
+<text x="1230.0" y="65.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000" style="font-weight:bold">:PrestamoRepository</text>
+<rect x="655" y="198" width="10" height="34" fill="#FFFFFF" stroke="#A0522D"/>
+<rect x="845" y="266" width="10" height="34" fill="#FFFFFF" stroke="#A0522D"/>
+<rect x="1225" y="334" width="10" height="34" fill="#FFFFFF" stroke="#A0522D"/>
+<rect x="1035" y="432" width="10" height="34" fill="#FFFFFF" stroke="#A0522D"/>
+<rect x="1225" y="494" width="10" height="34" fill="#FFFFFF" stroke="#A0522D"/>
+<rect x="465" y="164" width="10" height="562" fill="#FFFFFF" stroke="#A0522D"/>
+<rect x="275" y="120" width="10" height="626" fill="#FFFFFF" stroke="#A0522D"/>
+<rect x="85" y="110" width="10" height="642" fill="#FFFFFF" stroke="#A0522D"/>
+<rect x="30" y="396" width="1320" height="360" fill="none" stroke="#5B5B5B"/>
+<path d="M30,414 L70,414 L78,406 L78,396" fill="#F2F2F2" stroke="#5B5B5B"/>
+<text x="52.0" y="409.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="font-weight:bold">alt</text>
+<text x="86.0" y="410.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="font-weight:bold">[ !activo &amp;&amp; libro.isDisponible() ]  préstamo exitoso</text>
+<line x1="30" y1="622" x2="1350" y2="622" stroke="#5B5B5B" stroke-dasharray="5,4"/>
+<text x="40.0" y="636.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="font-weight:bold">[ else ]  libro no disponible (R1, R5)</text>
+<line x1="95.0" y1="120" x2="275.0" y2="120" stroke="#404040"/>
+<polygon points="265.0,115 275.0,120 265.0,125" fill="#404040"/>
+<text x="109.0" y="114.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">1: POST /api/prestamos {estudianteId, libroId}</text>
+<text x="290.0" y="146.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555" style="">@Valid PrestamoRequest (400 si es inválido)</text>
+<line x1="285.0" y1="164" x2="465.0" y2="164" stroke="#404040"/>
+<polygon points="455.0,159 465.0,164 455.0,169" fill="#404040"/>
+<text x="299.0" y="158.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">2: registrarPrestamo(request)</text>
+<line x1="475.0" y1="198" x2="655.0" y2="198" stroke="#404040"/>
+<polygon points="645.0,193 655.0,198 645.0,203" fill="#404040"/>
+<text x="489.0" y="192.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">3: findById(estudianteId)</text>
+<line x1="655.0" y1="232" x2="475.0" y2="232" stroke="#404040" stroke-dasharray="6,4"/>
+<polyline points="485.0,227 475.0,232 485.0,237" fill="none" stroke="#404040"/>
+<text x="489.0" y="226.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">Optional&lt;Estudiante&gt;</text>
+<line x1="475.0" y1="266" x2="845.0" y2="266" stroke="#404040"/>
+<polygon points="835.0,261 845.0,266 835.0,271" fill="#404040"/>
+<text x="489.0" y="260.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">4: findById(libroId)</text>
+<line x1="845.0" y1="300" x2="475.0" y2="300" stroke="#404040" stroke-dasharray="6,4"/>
+<polyline points="485.0,295 475.0,300 485.0,305" fill="none" stroke="#404040"/>
+<text x="489.0" y="294.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">Optional&lt;Libro&gt;</text>
+<line x1="475.0" y1="334" x2="1225.0" y2="334" stroke="#404040"/>
+<polygon points="1215.0,329 1225.0,334 1215.0,339" fill="#404040"/>
+<text x="489.0" y="328.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">5: existsByLibroIdAndFechaDevolucionIsNull(libroId)</text>
+<line x1="1225.0" y1="368" x2="475.0" y2="368" stroke="#404040" stroke-dasharray="6,4"/>
+<polyline points="485.0,363 475.0,368 485.0,373" fill="none" stroke="#404040"/>
+<text x="489.0" y="362.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">activo : boolean</text>
+<line x1="475.0" y1="432" x2="1035.0" y2="432" stroke="#404040"/>
+<polygon points="1025.0,427 1035.0,432 1025.0,437" fill="#404040"/>
+<text x="489.0" y="426.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">6: marcarPrestado()</text>
+<text x="1050.0" y="452.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555" style="">disponible = false  (R3)</text>
+<line x1="475.0" y1="494" x2="1225.0" y2="494" stroke="#404040"/>
+<polygon points="1215.0,489 1225.0,494 1215.0,499" fill="#404040"/>
+<text x="489.0" y="488.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">7: save(new Prestamo(estudiante, libro, hoy))</text>
+<line x1="1225.0" y1="528" x2="475.0" y2="528" stroke="#404040" stroke-dasharray="6,4"/>
+<polyline points="485.0,523 475.0,528 485.0,533" fill="none" stroke="#404040"/>
+<text x="489.0" y="522.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">prestamo : Prestamo</text>
+<line x1="465.0" y1="562" x2="285.0" y2="562" stroke="#404040" stroke-dasharray="6,4"/>
+<polyline points="295.0,557 285.0,562 295.0,567" fill="none" stroke="#404040"/>
+<text x="299.0" y="556.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">PrestamoResponse</text>
+<line x1="275.0" y1="596" x2="95.0" y2="596" stroke="#404040" stroke-dasharray="6,4"/>
+<polyline points="105.0,591 95.0,596 105.0,601" fill="none" stroke="#404040"/>
+<text x="109.0" y="590.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">201 Created + Location + PrestamoResponse</text>
+<polyline points="475,656 515,656 515,678 485,678" fill="none" stroke="#404040"/>
+<polygon points="495,673 485,678 495,683" fill="#404040"/>
+<text x="521.0" y="660.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">8: throw LibroNoDisponibleException</text>
+<line x1="465.0" y1="700" x2="285.0" y2="700" stroke="#404040" stroke-dasharray="6,4"/>
+<polyline points="295.0,695 285.0,700 295.0,705" fill="none" stroke="#404040"/>
+<text x="299.0" y="694.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">LibroNoDisponibleException  (rollback)</text>
+<line x1="275.0" y1="734" x2="95.0" y2="734" stroke="#404040" stroke-dasharray="6,4"/>
+<polyline points="105.0,729 95.0,734 105.0,739" fill="none" stroke="#404040"/>
+<text x="109.0" y="728.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000" style="">409 Conflict (ProblemDetail)  — sin nuevo préstamo</text>
+<path d="M830,786 L1158,786 L1170,798 L1170,845 L830,845 Z" fill="#FFFFFF" stroke="#7F7F7F"/>
+<path d="M1158,786 L1158,798 L1170,798" fill="none" stroke="#7F7F7F"/>
+<text x="840.0" y="805.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333" style="">Si findById devuelve Optional vacío, el Service lanza</text>
+<text x="840.0" y="820.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333" style="">RecursoNoEncontradoException y ManejadorErrores responde</text>
+<text x="840.0" y="835.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333" style="">404 Not Found (estudiante o libro inexistente).</text>
+</svg>

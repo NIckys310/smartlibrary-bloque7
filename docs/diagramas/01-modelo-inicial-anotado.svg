@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1418" height="732" viewBox="0 0 1418 732">
+<title>SmartLibrary - Modelo inicial anotado</title>
+<rect width="1418" height="732" fill="#FFFFFF"/>
+<polyline points="430.0,155.0 520.0,155.0 520.0,119.0 560.0,119.0" fill="none" stroke="#404040" stroke-width="1"/>
+
+<text x="436.0" y="150.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">1</text>
+<text x="554.0" y="114.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">0..*</text>
+<text x="514.0" y="137.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">registra</text>
+<polyline points="430.0,244.0 560.0,244.0" fill="none" stroke="#404040" stroke-width="1"/>
+
+<text x="436.0" y="239.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">1</text>
+<text x="554.0" y="239.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">0..*</text>
+<text x="495.0" y="258.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">administra</text>
+<polyline points="235.0,355.0 235.0,518.0 1222.5,518.0 1222.5,379.0" fill="none" stroke="#404040" stroke-width="1"/>
+
+<text x="241.0" y="369.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">1</text>
+<text x="1228.5" y="393.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">0..*</text>
+<text x="728.8" y="512.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">gestiona</text>
+<polyline points="897.0,119.0 1017.0,119.0 1017.0,139.0 1067.0,139.0" fill="none" stroke="#404040" stroke-width="1"/>
+
+<text x="903.0" y="114.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">1</text>
+<text x="1061.0" y="134.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">0..*</text>
+<text x="1011.0" y="133.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">historial</text>
+<polyline points="897.0,353.0 1067.0,353.0" fill="none" stroke="#404040" stroke-width="1"/>
+
+<text x="903.0" y="348.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">1</text>
+<text x="1061.0" y="348.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">0..*</text>
+<text x="982.0" y="367.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000">historial</text>
+<defs><linearGradient id="g0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFF4"/><stop offset="1" stop-color="#FFFFC4"/></linearGradient></defs>
+<rect x="43" y="136.0" width="390" height="222" fill="#000" opacity="0.12"/>
+<rect x="40" y="133.0" width="390" height="222" fill="url(#g0)" stroke="#A0522D" stroke-width="1"/>
+<text x="235.0" y="151.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="font-weight:bold">GestorPrestamos</text>
+<line x1="40" y1="159.0" x2="430" y2="159.0" stroke="#A0522D"/>
+<text x="50.0" y="176.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-estudiantes : List&lt;Estudiante&gt;</text>
+<text x="50.0" y="192.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-libros : List&lt;Libro&gt;</text>
+<text x="50.0" y="208.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-prestamos : List&lt;Prestamo&gt;</text>
+<line x1="40" y1="217.0" x2="430" y2="217.0" stroke="#A0522D"/>
+<text x="50.0" y="234.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+GestorPrestamos()</text>
+<text x="50.0" y="250.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+registrarPrestamo(e : Estudiante, l : Libro) : Prestamo</text>
+<text x="50.0" y="266.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getEstudiantes() : List&lt;Estudiante&gt;</text>
+<text x="50.0" y="282.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+setEstudiantes(lista) : void</text>
+<text x="50.0" y="298.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getLibros() : List&lt;Libro&gt;</text>
+<text x="50.0" y="314.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+setLibros(lista) : void</text>
+<text x="50.0" y="330.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getPrestamos() : List&lt;Prestamo&gt;</text>
+<text x="50.0" y="346.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+setPrestamos(lista) : void</text>
+<defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFF4"/><stop offset="1" stop-color="#FFFFC4"/></linearGradient></defs>
+<rect x="563" y="43" width="337" height="158" fill="#000" opacity="0.12"/>
+<rect x="560" y="40" width="337" height="158" fill="url(#g1)" stroke="#A0522D" stroke-width="1"/>
+<text x="728.5" y="58.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="font-weight:bold">Estudiante</text>
+<line x1="560" y1="66" x2="897" y2="66" stroke="#A0522D"/>
+<text x="570.0" y="83.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-id : Long</text>
+<text x="570.0" y="99.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-nombre : String</text>
+<text x="570.0" y="115.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-correo : String</text>
+<line x1="560" y1="124" x2="897" y2="124" stroke="#A0522D"/>
+<text x="570.0" y="141.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+Estudiante(id, nombre, correo)</text>
+<text x="570.0" y="157.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getId() : Long / setId(id) : void</text>
+<text x="570.0" y="173.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getNombre() : String / setNombre(nombre) : void</text>
+<text x="570.0" y="189.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getCorreo() : String / setCorreo(correo) : void</text>
+<defs><linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFF4"/><stop offset="1" stop-color="#FFFFC4"/></linearGradient></defs>
+<rect x="563.0" y="261" width="337" height="190" fill="#000" opacity="0.12"/>
+<rect x="560.0" y="258" width="337" height="190" fill="url(#g2)" stroke="#A0522D" stroke-width="1"/>
+<text x="728.5" y="276.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="font-weight:bold">Libro</text>
+<line x1="560.0" y1="284" x2="897.0" y2="284" stroke="#A0522D"/>
+<text x="570.0" y="301.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-id : Long</text>
+<text x="570.0" y="317.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-titulo : String</text>
+<text x="570.0" y="333.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-disponible : boolean</text>
+<line x1="560.0" y1="342" x2="897.0" y2="342" stroke="#A0522D"/>
+<text x="570.0" y="359.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+Libro(id, titulo, disponible)</text>
+<text x="570.0" y="375.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getId() : Long / setId(id) : void</text>
+<text x="570.0" y="391.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getTitulo() : String / setTitulo(titulo) : void</text>
+<text x="570.0" y="407.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+isDisponible() : boolean</text>
+<text x="570.0" y="423.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+setDisponible(valor) : void</text>
+<text x="570.0" y="439.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+marcarPrestado() : void</text>
+<defs><linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFF4"/><stop offset="1" stop-color="#FFFFC4"/></linearGradient></defs>
+<rect x="1070" y="112.0" width="311" height="270" fill="#000" opacity="0.12"/>
+<rect x="1067" y="109.0" width="311" height="270" fill="url(#g3)" stroke="#A0522D" stroke-width="1"/>
+<text x="1222.5" y="127.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="font-weight:bold">Prestamo</text>
+<line x1="1067" y1="135.0" x2="1378" y2="135.0" stroke="#A0522D"/>
+<text x="1077.0" y="152.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-id : Long</text>
+<text x="1077.0" y="168.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-fechaPrestamo : LocalDate</text>
+<text x="1077.0" y="184.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-fechaDevolucion : LocalDate [0..1]</text>
+<text x="1077.0" y="200.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-estudiante : Estudiante</text>
+<text x="1077.0" y="216.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">-libro : Libro</text>
+<line x1="1067" y1="225.0" x2="1378" y2="225.0" stroke="#A0522D"/>
+<text x="1077.0" y="242.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+Prestamo(id, fecha, estudiante, libro)</text>
+<text x="1077.0" y="258.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getId() : Long / setId(id) : void</text>
+<text x="1077.0" y="274.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getFechaPrestamo() : LocalDate</text>
+<text x="1077.0" y="290.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+setFechaPrestamo(fecha) : void</text>
+<text x="1077.0" y="306.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getFechaDevolucion() : LocalDate</text>
+<text x="1077.0" y="322.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+setFechaDevolucion(fecha) : void</text>
+<text x="1077.0" y="338.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getEstudiante() : Estudiante</text>
+<text x="1077.0" y="354.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+setEstudiante(estudiante) : void</text>
+<text x="1077.0" y="370.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000" style="">+getLibro() : Libro / setLibro(libro) : void</text>
+<path d="M40,558 L508,558 L520,570 L520,617 L40,617 Z" fill="#FFFFFF" stroke="#7F7F7F"/>
+<path d="M508,558 L508,570 L520,570" fill="none" stroke="#7F7F7F"/>
+<text x="50" y="577" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">(1) GestorPrestamos tiene baja cohesión: guarda las colecciones (datos),</text>
+<text x="50" y="592" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">registra préstamos (negocio) y nadie recibe la petición HTTP (presentación).</text>
+<text x="50" y="607" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">Se reparte en PrestamoController, PrestamoService y los Repository.</text>
+<path d="M40,633 L472,633 L484,645 L484,677 L40,677 Z" fill="#FFFFFF" stroke="#7F7F7F"/>
+<path d="M472,633 L472,645 L484,645" fill="none" stroke="#7F7F7F"/>
+<text x="50" y="652" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">(2) Las List&lt;&gt; en memoria no persisten: se reemplazan por</text>
+<text x="50" y="667" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">EstudianteRepository, LibroRepository y PrestamoRepository (JPA + H2).</text>
+<path d="M550,558 L928,558 L940,570 L940,617 L550,617 Z" fill="#FFFFFF" stroke="#7F7F7F"/>
+<path d="M928,558 L928,570 L940,570" fill="none" stroke="#7F7F7F"/>
+<text x="560" y="577" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">(3) registrarPrestamo no declara qué pasa si el libro no está</text>
+<text x="560" y="592" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">disponible (R1) ni si el estudiante/libro no existe (R4):</text>
+<text x="560" y="607" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">faltan excepciones que se traduzcan a 409 y 404.</text>
+<path d="M550,633 L940,633 L952,645 L952,692 L550,692 Z" fill="#FFFFFF" stroke="#7F7F7F"/>
+<path d="M940,633 L940,645 L952,645" fill="none" stroke="#7F7F7F"/>
+<text x="560" y="652" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">(4) Libro–Prestamo y Estudiante–Prestamo son asociaciones, no</text>
+<text x="560" y="667" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">composiciones: el libro y el estudiante existen antes y después</text>
+<text x="560" y="682" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">del préstamo; borrar un préstamo no los borra.</text>
+<path d="M970,558 L1282,558 L1294,570 L1294,632 L970,632 Z" fill="#FFFFFF" stroke="#7F7F7F"/>
+<path d="M1282,558 L1282,570 L1294,570" fill="none" stroke="#7F7F7F"/>
+<text x="980" y="577" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">(5) Falta saber si un préstamo está activo</text>
+<text x="980" y="592" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">(R5): se añade estaActivo() = fechaDevolucion</text>
+<text x="980" y="607" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">es null. setId() público rompe el encapsulamiento:</text>
+<text x="980" y="622" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#333">el id lo genera la base de datos.</text>
+<line x1="100.0" y1="558.0" x2="100.0" y2="355.0" stroke="#7F7F7F" stroke-dasharray="3,3"/>
+<line x1="630.0" y1="558.0" x2="390.0" y2="355.0" stroke="#7F7F7F" stroke-dasharray="3,3"/>
+<line x1="1050.0" y1="558.0" x2="1107.0" y2="379.0" stroke="#7F7F7F" stroke-dasharray="3,3"/>
+</svg>
